@@ -1,0 +1,126 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    min-width: 375px;
+    height: 100vh;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    margin-top: 5px;
+    font-size: 20px;
+    color: hsl(234, 12%, 34%);
+}
+
+h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+    padding-top: 20px;
+    font-size: 20px;
+    color:hsl(229, 6%, 66%);
+}
+
+img {
+    margin-top: 25px;
+    margin-left: 230px;
+    width: 50px;
+}
+
+.tittle {
+    width: 330px;
+    height: 200px;
+    margin: 30px auto;
+    padding: 0px 10px;
+    text-align: center;
+}
+.tittle p {
+    font-family: 'Poppins', sans-serif;
+    margin-top: 15px;
+    font-size: 15px;
+    color: hsl(0, 2%, 59%);
+}
+.box-size {
+    width: 300px;
+    height: 200px;
+    margin: 20px auto;
+    border: 3px;
+    box-shadow: 0 0 1em black;
+    border-top:4px solid;
+    border-radius: 10px;
+}
+.box-size h1 {
+    font-size: 15px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.box-size p {
+    font-size: 10px;
+    margin-left: 30px;
+    margin-top: 20px;
+    font-family: 'Poppins', sans-serif;
+    color: hsl(0, 2%, 59%);
+}
+    
+.box1 {
+    border-top-color: hsl(180, 62%, 55%);
+}
+
+.box2 {
+    border-top-color: hsl(0, 78%, 62%);
+}
+.box3 {
+    border-top-color: hsl(34, 97%, 64%);
+}
+.box4 {
+    border-top-color: hsl(212, 86%, 64%);
+}
+
+@media (min-width:992px) {
+    main {
+        max-width: 1440px;
+        height: 100vh;
+    }
+    .tittle {
+        width: 50vw;
+        height: 200px;
+    }
+
+    h1 {
+        font-size: 35px;
+        font-weight: 600;
+    }
+
+    h2{
+        font-size: 35px;
+        font-weight:lighter;
+    }
+   .box1 {
+       position: absolute;
+       left: 230px;
+       top: 400px;
+   }
+   .box2 {
+       position: absolute;
+       top:50%;
+       left: 50%;
+       transform: translate(-50%, -50%);
+   }
+   .box3 {
+       position: absolute;
+       top: 520px;
+       left: 560px;
+   }
+   .box4 {
+       position: absolute;
+       right: 230px;
+       top: 400px;
+   }
+
+}
+
