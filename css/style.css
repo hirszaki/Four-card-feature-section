@@ -4,7 +4,7 @@
     padding: 0;
 }
 
-main 
+main {
     min-width: 375px;
     height: 100vh;
 }
