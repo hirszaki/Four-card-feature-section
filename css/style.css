@@ -38,6 +38,8 @@ section {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	font-family: 'Poppins', sans-serif;
+	font-size: 0.6rem;
 }
 .center {
 	height: 40vh;
@@ -57,15 +59,13 @@ section {
 	border-radius: 0.5rem;
 }
 
-.box h1 {
-	font-size: 0.8rem;
+h3 {
 	text-align: left;
 	margin-left: 1rem;
 	margin-top: 0.8rem;
 }
 
 .box p {
-	font-size: 0.8rem;
 	margin: 0.2rem 1rem;
 }
 
@@ -111,6 +111,7 @@ img {
 		height: 60vh;
 		display: flex;
 		justify-content: center;
+		font-size: 0.8rem;
 	}
 
 	.center {
@@ -125,8 +126,7 @@ img {
 		height: 25vh;
 	}
 
-	.box h1 {
-		font-size: 1.5rem;
+	h3 {
 		margin-left: 1.5rem;
 		margin-top: 1rem;
 	}
